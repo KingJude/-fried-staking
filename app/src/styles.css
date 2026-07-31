@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Luckiest+Guy&display=swap");
+
+:root { color: #fff8e7; background: #160d08; font-family: "DM Sans", sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: radial-gradient(circle at 70% 0%, #5d1a0b 0, #160d08 45%); }
+main { width: min(1180px, 92%); margin: auto; }
+nav { display: flex; align-items: center; justify-content: space-between; padding: 28px 0; }
+.brand { font-weight: 800; letter-spacing: .08em; }
+.brand span { font-size: 28px; }
+.hero { padding: 72px 0 42px; max-width: 850px; }
+.eyebrow { color: #ffbd2e; font-weight: 700; letter-spacing: .18em; }
+h1 { font-family: "Luckiest Guy", cursive; font-size: clamp(58px, 9vw, 112px); line-height: .88; margin: 20px 0; font-weight: 400; letter-spacing: .015em; }
+h1 em { color: #ffbd2e; font-style: normal; text-shadow: 5px 6px 0 #a92b11; }
+.lead { font-size: 20px; color: #d8c4ad; }
+.stats { display: flex; gap: 42px; margin-top: 42px; flex-wrap: wrap; }
+.stats div { display: flex; flex-direction: column; }
+.stats strong { font-size: 25px; color: #ffbd2e; }
+.stats span { color: #a99179; font-size: 13px; }
+.pools { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; padding: 28px 0; }
+article { border: 1px solid #563323; border-radius: 18px; padding: 28px; background: linear-gradient(145deg, #2a170f, #1c100b); }
+article p { color: #c9a987; text-transform: uppercase; font-weight: 700; letter-spacing: .1em; }
+article h2 { font-size: 54px; margin: 14px 0 3px; }
+article h2 small { font-size: 15px; color: #a99179; }
+article > span { color: #ffbd2e; }
+article label { display: block; margin-top: 30px; color: #bda68e; font-size: 13px; }
+input { width: 100%; margin-top: 8px; padding: 14px; border: 1px solid #65402e; border-radius: 9px; background: #120b08; color: white; }
+button { width: 100%; margin-top: 14px; padding: 14px; border: 0; border-radius: 9px; font-weight: 800; background: #ffbd2e; color: #251205; cursor: pointer; }
+button:disabled, input:disabled { opacity: .48; cursor: not-allowed; }
+.orange { border-top-color: #ff7b22; }
+.red { border-top-color: #e83d1c; }
+aside { margin: 12px 0 40px; padding: 17px; border-left: 4px solid #ffbd2e; background: #29180f; color: #d9c2a8; }
+code { color: #ffbd2e; }
+footer { display: flex; justify-content: space-between; padding: 30px 0 50px; color: #826c5b; font-size: 13px; }
+@media (max-width: 780px) { .pools { grid-template-columns: 1fr; } .hero { padding-top: 40px; } footer { flex-direction: column; gap: 8px; } }
