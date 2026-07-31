@@ -1,0 +1,9 @@
+node_modules/
+target/
+.anchor/
+.env
+app/.env
+dist/
+test-ledger/
+*.log
+.DS_Store
